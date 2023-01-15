@@ -67,7 +67,7 @@ nav > ul {
     align-items: center;
     justify-content: center;
     height: auto;
-    margin: 15px 15%;
+    margin: 80px 15%;
 }
 .features-gallery {
     display: grid;
@@ -83,7 +83,7 @@ nav > ul {
     font-size: 40px;
     font-weight: 650;
 }
-.features {
+.quick-features {
     color: var(--secondary-color);
 }
 .qlist {
@@ -94,4 +94,107 @@ nav > ul {
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.features {
+    display: flex;
+    margin: 80px 15%;
+    gap: 15px;
+}
+.features-title {
+    display: flex;
+    text-align: start;
+
+}
+
+.line {
+    width: 7px;
+    height: 70px;
+    background-color: var(--secondary-color);
+    margin: 0 10px;
+}
+
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.feature-p {
+    color: var (--primary-color);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.feature-card {
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    box-shadow: 0px 5px 12px 0px #f5f1f1;
+    box-shadow: inset;
+    padding: 20px;
+    margin: 20px;
+
+}
+.btn {
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--secondary-color) ;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+.img-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    position: relative;
+}
+.btn-p {
+    font-size: 20px;
+}
+
+.some-facts {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-width: 1300px;
+    margin: 15px 15%;
+}
+.facts-title {
+    text-align: start;
+}
+.facts {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 2px;
+    
+}
+.facts div {
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.facts-title p {
+    font-size: 15px;
+    color: var(--primary-color);
+    margin: 15px 0;
+}
+.facts h2 {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin: 3px 0;
+}
+.facts p {
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: 600;
+
 }
