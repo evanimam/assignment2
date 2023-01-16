@@ -190,6 +190,8 @@ nav > ul {
     margin-top: 50px;
 }
 
+/* Simple hover effect for bonus marks */
+
 .facts div:hover  {
 	 border: 1px solid var(--primary-color) ;
 	 background-color: var(--secondary-color);
